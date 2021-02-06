@@ -1,27 +1,42 @@
-# SortingV
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.2.
+# sorting algorithm visualizaer
+*  Animating famous sorting algorithms in web browsers
 
-## Development server
+## Technology
+* angular, html, css, typescript
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Project Status
+* the general design of the project is finished
+* implementation of bubble sort is done.
 
-## Code scaffolding
+Todo:
+* Implementation of:
+  * merge sort
+  * Selection Sort
+  * Insertion Sort
+  * Quick Sort
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Example:
+input sample: 
 
-## Build
+    6,8,5,7,3,1,4,2    
+* accepts a list of integers as input and sort by pressing 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Example:
+![screenshoot](/assets/screen.png)
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Installation and Setup Instructions
+Clone down this repository. You will need node and npm installed globally on your machine.
 
-## Running end-to-end tests
+### Installation:
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+    npm install
 
-## Further help
+### To Start Server:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+    ng server
+
+### To Visit App:
+
+    localhost:4200
