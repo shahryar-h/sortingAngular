@@ -1,1 +1,27 @@
-<p>bubble-sort works!</p>
+<header>
+    <p class="title"> {{title}} </p>
+    <div class="userInputContainer">
+        <input class="userInput" type="text" #test >
+        <button class="btn btn-info btnStyle"
+                (click)="generate(test.value)">
+                Generate
+        </button> 
+    </div>
+</header>
+
+<ul class="items"> 
+    <li *ngFor="let num of numbers" 
+        [style.height.%]="num*10" >
+        <div 
+        >{{num}}</div>
+    </li>
+</ul>
+
+<div class="btnContainer">
+    <button type="button" 
+            class="btn btn-info btnStyle"  
+            (click)="sortNumbers()">
+            Start
+    </button>
+</div>
+
