@@ -3,7 +3,7 @@
 *  Animating famous sorting algorithms in web browsers
 
 ## Technology
-* angular, html, css, typescript
+* angular, html, sass, typescript
 
 ## Project Status
 * the general design of the project is finished
